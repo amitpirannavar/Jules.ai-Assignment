@@ -28,7 +28,7 @@ public class LoginFunctionality extends base{
 		
 	}
 	@Test(priority = 1)
-	public void LoginWithValidCredentials () {
+	public void Login_With_Valid_Credentials() {
 		
 		WebElement emailField = driver.findElement(By.name("email"));
         emailField.sendKeys("qa@julesai.com");
@@ -47,7 +47,7 @@ public class LoginFunctionality extends base{
 			
 	}
 	@Test(priority = 2)
-	public void LoginWithOutPassword() {
+	public void Login_WithOut_Password() {
 		
 		WebElement emailField = driver.findElement(By.name("email"));
         emailField.sendKeys("amitpirannavar@gmail.com");
